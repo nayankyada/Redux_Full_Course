@@ -4,7 +4,7 @@
 //   applyMiddleware,
 //   bindActionCreators,
 // } from "redux";
-// console.log("-------------------01_Redux.js-----------------------")
+// console.log("-------------------01_Redux.js-----------------------");
 
 // // compose combine all given function and return new function
 // const makeLouder = (string) => string.toUpperCase();
@@ -41,12 +41,10 @@
 //   }
 // };
 
-
-
 // // createStore
 // const store = createStore(reducer);
 
-// //Subscriber will be call after evry state change
+// //Subscriber will be call after every state change
 // const subscriber = () => {
 //   console.log("SUBSCRIBER", store.getState());
 // };
@@ -58,9 +56,8 @@
 // console.log(store.getState());
 
 // // bindActionCreator -> it binds action with dispatch so no need to write likr -> store.dispatch
-// const actions = bindActionCreators({ increment, add },store.dispatch);
-// console.log("bindActionCreator",actions)
-// actions.add(25)
-// actions.increment()
-// console.log(store.getState())
-
+// const actions = bindActionCreators({ increment, add }, store.dispatch);
+// console.log("bindActionCreator", actions);
+// actions.add(25);
+// actions.increment();
+// console.log(store.getState());

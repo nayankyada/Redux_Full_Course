@@ -34,5 +34,5 @@ export const humanSlice = createSlice({
 });
 
 // note related to -> extraReducers
-// 1. here we can add multiple case by chaining addCase like in primis then().then().....
+// 1. here we can add multiple case by chaining addCase like in promise then().then().....
 // 2. it mostly used to listen other reducer actions and based on that we write own logic
